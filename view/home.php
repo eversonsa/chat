@@ -1,9 +1,3 @@
-
-<h1>Alguma coisa em HTML5, JS, CSS, PHP, DESIGN PATTERN </h1>
-
-<?php
-    foreach ($usuarios as $usuario) {
-        echo 'Nome '.$usuario['nome'].'<br>';
-}
-
-?>
+<a href="/suporte">Ir para Suporte</a>
+<br><br>
+<a href="/cliente">Ir para Cliente</a>

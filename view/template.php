@@ -2,8 +2,9 @@
     <head>
         <title>Chat</title>
         <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/template.css"/>
-         <script type="text/javascript" src="assets/js/jquery.min.js/>
-         <script type="text/javascript" src="assets/js/funcoes.js"/>
+         <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+         <script type="text/javascript" src="assets/js/funcoes.js"></script>
+         
     </head>
     <body>
         <div class="environment" style="background-color:<?php   

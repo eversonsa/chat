@@ -2,6 +2,10 @@
 
 class controller {
     
+    public function __construct() {
+    }
+
+
     public function loadView($viewName, $viewData = array()){
         extract($viewData);
         include 'view/'.$viewName.'.php';
