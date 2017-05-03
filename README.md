@@ -1,2 +1,1 @@
-# estrutura_MVC
-estrutura_MVC, todo funcional para pequenos e medio projetos.
+desenvolvendo um chat em php, MySql, js, CSS3, HTML5, ajax 
