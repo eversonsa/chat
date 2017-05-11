@@ -4,5 +4,5 @@
     </div>
 </div>
 <div class="inputarea">
-    <input type="text" id="msg" />
+    <input type="text" id="msg"  onkeyup="keyUpChat(this, event)"/>
 </div>

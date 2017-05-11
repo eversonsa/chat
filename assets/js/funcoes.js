@@ -41,4 +41,16 @@ function abrirChamado(obj){
     window.open('/chat?id='+id, 'chatWindow','width=500, height=400' );
 }
 
+function keyUpChat(obj, event) {
+    if(event.keyCode == 13){ //13 tecla enter
+        var msg = obj.value;
+        obj.value = '';
+        var dt = new Date();
+        var hr = dt.getHours()+':'+dt.getMinutes();
+        var nome = '...';
+        
+        $('.chatarea').append('<div class="msgitem">'+hr+'<strong>'+nome+'</strong>'+msg+'</div>');
+    }
+}
+
 

@@ -18,4 +18,12 @@ class Chamados extends model{
     }
     return $array;
     }
+    
+    public function updateStatus($id, $status) {
+        if(!empty($id) && !empty($status)){
+            
+            $sql = "UPDATE chamados SET status = '$status' WHERE id = '$id'";
+            $this->db->query($sql);
+        }
+    }
 }
